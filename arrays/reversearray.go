@@ -15,7 +15,7 @@ import "fmt"
 
 func main() {
 	var n int
-	fmt.Printf("enter Number of elemnts")
+	fmt.Printf("enter size of array")
 	fmt.Scan(&n)
 	array1 := make([]int, n)
 	//array1 := [5]int{2, 5, 9, 0, 1}
